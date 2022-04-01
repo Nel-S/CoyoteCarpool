@@ -1,16 +1,16 @@
 import React from 'react';
 import {View, Text, StyleSheet, ImageBackground} from 'react-native';
-import HomePage from './components/HomePage';
+import Homepage from './components/Homepage';
 
 const App = () => {
   return(
     <View style = {styles.container}>
       
-      {<HomePage />}
-      {/*<DashboardPage />*/}
-      {/*<ProfilePage />*/}
-      {/*<DriverListPage />*/}
-      {/*<RiderListPage />*/}
+      {<Homepage />}
+      {/*<Dashboardpage />*/}
+      {/*<Profilepage />*/}
+      {/*<Driverpage />*/}
+      {/*<Riderpage />*/}
 
     </View>
   )
